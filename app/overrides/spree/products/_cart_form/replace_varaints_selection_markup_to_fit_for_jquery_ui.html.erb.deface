@@ -1,4 +1,5 @@
 <!-- replace '#product-variants ul' -->
+<h6 class="product-section-title">Package Size</h6>
 <div class="variants-buttons">
   <% @product.variants_and_option_values(current_currency).each_with_index do |variant, index| %>
 
